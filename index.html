@@ -35,7 +35,7 @@
 <!--header-->
     <div class="container">
       <div class="nav-top">
-          <a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
+          <a href="home.html"><img id="logo" src="images/logo.png" alt="logo"></a>
        </div>
     </div>
 
@@ -47,7 +47,7 @@
         <button class="cn-button nav-reveal hvr-pulse-grow" id="cn-button">Menu</button>
         <div class="cn-wrapper" id="cn-wrapper">
           <ul>
-          <li><a href="index.html"><span>Home</span></a></li>
+          <li><a href="index.html#welcome"><span>Home</span></a></li>
 
             <li><a href="about.html"><span>About</span></a></li>
 
@@ -495,8 +495,8 @@
 
         sr.reveal('.lax-box-reveal', { origin: 'top', distance: '3em', opacity: '0' });
         /*text on parallaxes and previous/next buttons on image slider*/
-        sr.reveal('.lax1-text-reveal, .prev-reveal', { reset: false, delay:'300', origin: 'left', distance: '5em', opacity: '.05' });
-        sr.reveal('.lax2-text-reveal, .next-reveal', { reset: false, delay:'300', origin: 'right', distance: '5em', opacity: '.05' });
+        sr.reveal('.lax1-text-reveal, .prev-reveal', { mobile: false, reset: false, delay:'300', origin: 'left', distance: '5em', opacity: '.05' });
+        sr.reveal('.lax2-text-reveal, .next-reveal', { mobile: false, reset: false, delay:'300', origin: 'right', distance: '5em', opacity: '.05' });
         /*slide*/
         sr.reveal('.slide-text-reveal1', { delay:'500', origin: 'right', distance: '5em', opacity: '.05', duration: 1500 });
         sr.reveal('.slide-text-reveal2', { delay:'500', origin: 'right', distance: '5em', opacity: '.05', duration: 1500 });
