@@ -164,7 +164,7 @@
       }
 
     @media only screen and (max-width : 1200px) {
-    
+
       /*navtop*/
 
       .box-style {
@@ -1212,7 +1212,7 @@ box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
       top: 5em;
       padding-top: .7em;
         }}
-        
+
 
 
 
@@ -1571,12 +1571,12 @@ box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
           margin-right: -20%;
          }}
          @media only screen and (min-width : 1365px) and (max-width : 1599px)  {
-        #github {          
-          margin-right: -10%;          
+        #github {
+          margin-right: -10%;
          }}
          @media only screen and (min-width : 1200px) and (max-width : 1364px)  {
-        #github {          
-          margin-right: -3%;          
+        #github {
+          margin-right: -3%;
          }}
 
 
@@ -1592,6 +1592,13 @@ box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
          #github {
           display: none;
          }}
+
+        @media only screen and (max-width : 450px)  {
+          body {
+            overflow-x: hidden;
+
+          }
+        }
 
 
 
