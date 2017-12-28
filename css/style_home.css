@@ -69,19 +69,19 @@
           float: right;
           font-family: ostrich;
           letter-spacing: 7px;
-          font-size: 20px;  
+          font-size: 20px;
           position: relative;
-          bottom: 50px;  
+          bottom: 50px;
          }
          #github a {
           color: #10E7DC;
-          
+
          }
 
          #github a:hover {
           color: black;
           opacity: .25;
-          
+
          }
 
          #github2 {
@@ -99,7 +99,7 @@
 
          #github2 a:hover {
           color: #FEF9C7;
-          
+
          }
 /*circular navbar*/
 
