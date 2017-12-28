@@ -1,4 +1,29 @@
       /*larger screens... 1200-992*/
+
+/*=======media queries=============*/
+@media screen and (min-width: 1860px) {
+        .nav-top img {
+          right: 19em;
+         }
+
+  }
+
+@media screen and (max-width: 1900px) and (min-width: 1651px) {
+
+       /*.nav-top {height: 63px;}*/
+         .nav-top img {
+          right: 14em;
+         }
+  }
+
+@media screen and (max-width: 1650px) and (min-width: 1401px) {
+       /*.nav-top {height: 63px;}*/
+         .nav-top img {
+          right: 7em;
+         }
+  }
+
+      
       @media only screen and (max-width : 1200px) {
 
 

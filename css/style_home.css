@@ -52,7 +52,7 @@
 /*navtop*/
         .nav-top {
         width: 100%;
-        height: 80px;
+        height: 50px;
       }
 
          .nav-top img {
@@ -64,7 +64,42 @@
          .nav-img-2 {
           width: 75%;
           display: none;
+         }
+         #github {
+          float: right;
+          font-family: ostrich;
+          letter-spacing: 7px;
+          font-size: 20px;  
+          position: relative;
+          bottom: 50px;  
+         }
+         #github a {
+          color: #10E7DC;
+          
+         }
 
+         #github a:hover {
+          color: black;
+          opacity: .25;
+          
+         }
+
+         #github2 {
+          margin: 0 auto;
+          font-family: palanquin;
+          letter-spacing: 7px;
+          font-size: 15px;
+          position: relative;
+          top: 11em;
+         }
+
+         #github2 a {
+          color: #FFF;
+         }
+
+         #github2 a:hover {
+          color: #FEF9C7;
+          
          }
 /*circular navbar*/
 
@@ -1309,7 +1344,7 @@
         /*footer*/
         .foot-style {
           font-size: 13px;
-          height: 39em;
+          height: 42em;
           margin-top: -3em;
           background: #1F2833;
           color: white;
