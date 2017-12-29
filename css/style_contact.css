@@ -3,7 +3,7 @@
             font-family: 'palanquin', Arial, sans-serif;
             font-size: 18px;
             background-color: #fcf7f2; /*EDF5E1*/
-
+            perspective: 1px;
             overflow-x: hidden;
 
           }
@@ -1205,7 +1205,7 @@
           margin-bottom: 7.5em;
           background-color: #22264b;
           height: 28em;
-        }
+          }
         }
 
 /*hvr border fade*/
@@ -1235,7 +1235,6 @@
 
 /*box around social media*/
         .social-box {
-
             margin: 0 auto;
             background-color: white;
             width: 70%;
@@ -1243,7 +1242,6 @@
             -webkit-border-radius: 20px;
             -moz-border-radius: 20px;
             border-radius: 20px;
-
         }
         .social-wrapper {
           width: 100%;
@@ -1393,12 +1391,10 @@
             -webkit-border-radius: 20px;
             -moz-border-radius: 20px;
             border-radius: 20px;
-
         }
         .social-wrapper {
           width: 100%;
         }
-
         .icon {
           position: relative;
           left: 1.5em;
@@ -2050,7 +2046,6 @@
         .nav-top img {
           right: 19em;
          }
-
   }
 
 @media screen and (max-width: 1900px) and (min-width: 1651px) {
