@@ -1,5 +1,5 @@
 /*for currently searching for animation... not sure if necessary*/
-          *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+        *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
           .clearfix:before, .clearfix:after { display: table; content: ''; }
           .clearfix:after { clear: both; }
 
@@ -8,12 +8,8 @@
             font-family: 'palanquin', sans-serif;
             font-size: 18px;
             background-color: #fcf7f2;
-            overflow: hidden;
-            max-width: 100%;
-            min-width: 100%;
+            overflow-x: hidden;
             }
-
-
 
         .container-fluid {
             padding-right:0;
