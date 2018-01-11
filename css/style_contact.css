@@ -864,6 +864,43 @@
             }
             }
 
+            @media only screen and (max-width: 1279px) and (min-width: 625px) {
+                .modal-content {
+              width: 75%;
+              margin: 0 auto;
+              margin-top: 2em;
+              font-family: 'palanquin', Arial, sans-serif;
+              height: 10em;
+              padding: 2.5em 1em;
+            }
+              }}
+
+              @media only screen and (max-width: 900px) and (min-width: 625px) {
+                .close-modal {
+              margin-bottom: 3em;
+            }
+
+            #btn-close-modal {
+                width:150px;
+                height: 3em;
+                font-size: 16px;
+                margin: 0 auto;
+                text-align: center;
+                cursor:pointer;
+                color: white;
+                background-color: #66b9bf;
+                position: absolute;
+                top: 65%;
+                left: 44%;
+                padding-top: 13px;
+                -webkit-transition: color 0.5s;
+                transition: color 0.5s;
+                -webkit-transition: all 0.3s;
+                transition: all 0.3s;
+                font-family: 'palanquin', Arial, sans-serif;
+                letter-spacing: 2px;
+                }}
+
             /* Border Fade */
             .hvr-border-fade2 {
               display: inline-block;
